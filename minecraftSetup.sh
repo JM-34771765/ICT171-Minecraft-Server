@@ -4,7 +4,7 @@
 # Do not add any spaces between your link and the "=", otherwise it won't work. EG: MINECRAFTSERVERURL=https://urlexample
 
 
-MINECRAFTSERVERURL=
+MINECRAFTSERVERURL=https://piston-data.mojang.com/v1/objects/e6ec2f64e6080b9b5d9b471b291c33cc7f509733/server.jar
 
 
 # Download Java
