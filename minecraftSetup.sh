@@ -8,7 +8,7 @@ MINECRAFTSERVERURL=https://piston-data.mojang.com/v1/objects/e6ec2f64e6080b9b5d9
 
 
 # Download Java
-sudo apt install -y default-jre
+sudo apt install -y openjdk-21-jdk
 # Install MC Java server in a directory we create
 adduser minecraft
 mkdir /opt/minecraft/
