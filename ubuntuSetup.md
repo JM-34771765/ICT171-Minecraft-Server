@@ -5,7 +5,7 @@ Last Updated: 05/06/2025
 
 This is a guide for setting up an Ubuntu Instance using Amazon EC2. This guide document is designed to be used alongside the Minecraft Server setup guide found [Here](https://aws.amazon.com/blogs/gametech/setting-up-a-minecraft-java-server-on-amazon-ec2/#aws-page-content-main)
 
-Follow the instructions on the AWS Blog, and use this guide as a reference as to deploying an ubuntu instance for the same purpose.
+Follow the instructions on the AWS Blog, and use this guide as a reference for deploying an ubuntu instance for the same purpose.
 
 At step 4, select 'Ubuntu' and use the default AMI.
 
