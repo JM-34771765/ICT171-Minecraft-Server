@@ -20,7 +20,7 @@ wget $MINECRAFTSERVERURL
 
 # Generate Minecraft server files and create script
 chown -R minecraft:minecraft /opt/minecraft/
-java -Xmx1300M -Xms1300M -jar server.jar nogui
+java -Xmx1300M -Xms1300M -jar server.jar 
 sleep 40
 sed -i 's/false/true/p' eula.txt
 touch start
