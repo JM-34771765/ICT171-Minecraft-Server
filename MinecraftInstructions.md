@@ -23,7 +23,7 @@ Step 4: While you have the file open, also ensure that the java install command 
 ```
 sudo apt install -y openjdk-version_num-jdk
 ```
-    - Make sure to replace 'version_num' with the current java version number.s
+    Make sure to replace 'version_num' with the current java version number.s
 
 Step 5: Assign execute permissions using `chmod +x minecraftSetup.sh` 
 
