@@ -9,7 +9,9 @@ Note: This guide is for an already set up Ubuntu instance in Amazon EC2. See [Se
 
 Step 1: Download the minecraftSetup.sh file using `wget https://github.com/JM-34771765/ICT171-Minecraft-Server/raw/refs/heads/main/minecraftSetup.sh`
 
-Step 2: Nagivate to your default downloads directory. The default command for this will be ```cd Downloads```
+Step 2: Nagivate to your default downloads directory. The default command for this will be ```
+cd Downloads
+```
 
 Step 3: Within minecraftSetup.sh, make sure the MINECRAFTSERVERURL variable is set to the correct version download link. 
 
@@ -17,22 +19,39 @@ Visit [The Minecraft Server Download Link](https://www.minecraft.net/en-us/downl
     Note: You can use nano minecraftSetup.sh to view the file
     Note: The server's version is currently set to 1.21.5
 
-Step 4: While you have the file open, also ensure that the java install command is up-to-date with the latest java version ```sudo apt install -y openjdk-version_num-jdk```
+Step 4: While you have the file open, also ensure that the java install command is up-to-date with the latest java version 
+```
+sudo apt install -y openjdk-version_num-jdk
+```
     - Make sure to replace 'version_num' with the current java version number.s
 
 Step 5: Assign execute permissions using `chmod +x minecraftSetup.sh` 
 
-Step 6: Run minecraftSetup.sh using ```sudo ./minecraftSetup.sh```
+Step 6: Run minecraftSetup.sh using 
+```
+sudo ./minecraftSetup.sh
+```
     Note: This setup script will start the server automatically. It will also automatically agree to the minecraft EULA. 
     For more information visit [The official Minecraft EULA webpage](https://www.minecraft.net/en-us/eula)
 
-Step 7: Run the command ```sudo nano /etc/crontab``` This will open your crontab configuration, which lets you schedule commands to run at regular intervals. 
-Below the other scheduled commands, add the line ```0 * * * * root /opt/minecraft/server/backup```
+Step 7: Run the command 
+```
+sudo nano /etc/crontab
+``` 
+This will open your crontab configuration, which lets you schedule commands to run at regular intervals. 
+Below the other scheduled commands, add the line
+ ```
+ 0 * * * * root /opt/minecraft/server/backup
+ ```
 This command will run the backup script every hour while the EC2 instance is running. There is a guide within the crontab file to adjust the frequency at which the backups are created. 
     
 ## REGULAR SERVER OPERATION
 
-To access server operations, run the command ```cd /opt/minecraft/server``` This will take you to the directory the server runs from. 
+To access server operations, run the command 
+```
+cd /opt/minecraft/server
+```
+This will take you to the directory the server runs from. 
 
 Run the `ls` command to see the server files.
 
