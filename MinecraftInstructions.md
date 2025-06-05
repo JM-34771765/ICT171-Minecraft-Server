@@ -41,7 +41,7 @@ sudo nano /etc/crontab
 This will open your crontab configuration, which lets you schedule commands to run at regular intervals. 
 Below the other scheduled commands, add the line
  ```
- 0 * * * * root /opt/minecraft/server/backup
+ * 0 * * * root /opt/minecraft/server/backup
  ```
 This command will run the backup script every hour while the EC2 instance is running. There is a guide within the crontab file to adjust the frequency at which the backups are created. 
     
