@@ -9,7 +9,8 @@ Note: This guide is for an already set up Ubuntu instance in Amazon EC2. See [Se
 
 Step 1: Download the minecraftSetup.sh file using `wget https://github.com/JM-34771765/ICT171-Minecraft-Server/raw/refs/heads/main/minecraftSetup.sh`
 
-Step 2: Nagivate to your default downloads directory. The default command for this will be ```
+Step 2: Nagivate to your default downloads directory. The default command for this will be 
+```
 
 cd Downloads
 
