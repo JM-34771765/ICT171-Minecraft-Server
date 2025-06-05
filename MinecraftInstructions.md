@@ -1,7 +1,7 @@
 Minecraft Server Setup
 by Jonathan Michael
 
-Last Updated: 29/5/25
+Last Updated: 05/06/2025
 
 Note: This guide is for an already set up Ubuntu instance in Amazon EC2. See [Server Setup Document] for more details.  
 
@@ -17,7 +17,8 @@ Visit [The Minecraft Server Download Link](https://www.minecraft.net/en-us/downl
     Note: You can use nano minecraftSetup.sh to view the file
     Note: The server's version is currently set to 1.21.5
 
-Step 3: While you have the file open, also ensure that the java install command is up-to-date with the latest java version (sudo apt install -y openjdk-version_num-jdk)
+Step 3: While you have the file open, also ensure that the java install command is up-to-date with the latest java version ```sudo apt install -y openjdk-version_num-jdk```
+    - Make sure to replace 'version_num' with the current java version number.s
 
 Step 4: Assign execute permissions using `chmod +x minecraftSetup.sh` 
 
