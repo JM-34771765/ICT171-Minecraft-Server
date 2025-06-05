@@ -9,7 +9,7 @@ SERVER SETUP DETAILS
 
 Step 1: Download the minecraftSetup.sh file using `wget https://github.com/JM-34771765/ICT171-Minecraft-Server/raw/refs/heads/main/minecraftSetup.sh`
 
-Step 2: Nagivate to your default downloads directory. The default command for this will be ```cd Download```
+Step 2: Nagivate to your default downloads directory. The default command for this will be ```cd Downloads```
 
 Step 2: Within minecraftSetup.sh, make sure the MINECRAFTSERVERURL variable is set to the correct version download link. 
 
