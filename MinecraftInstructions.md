@@ -11,18 +11,18 @@ Step 1: Download the minecraftSetup.sh file using `wget https://github.com/JM-34
 
 Step 2: Nagivate to your default downloads directory. The default command for this will be ```cd Downloads```
 
-Step 2: Within minecraftSetup.sh, make sure the MINECRAFTSERVERURL variable is set to the correct version download link. 
+Step 3: Within minecraftSetup.sh, make sure the MINECRAFTSERVERURL variable is set to the correct version download link. 
 
 Visit [The Minecraft Server Download Link](https://www.minecraft.net/en-us/download/server) to find the latest version, or search minecraft server download
     Note: You can use nano minecraftSetup.sh to view the file
     Note: The server's version is currently set to 1.21.5
 
-Step 3: While you have the file open, also ensure that the java install command is up-to-date with the latest java version ```sudo apt install -y openjdk-version_num-jdk```
+Step 4: While you have the file open, also ensure that the java install command is up-to-date with the latest java version ```sudo apt install -y openjdk-version_num-jdk```
     - Make sure to replace 'version_num' with the current java version number.s
 
-Step 4: Assign execute permissions using `chmod +x minecraftSetup.sh` 
+Step 5: Assign execute permissions using `chmod +x minecraftSetup.sh` 
 
-Step 5: Run minecraftSetup.sh using ```sudo ./minecraftSetup.sh```
+Step 6: Run minecraftSetup.sh using ```sudo ./minecraftSetup.sh```
     Note: This setup script will start the server automatically. It will also automatically agree to the minecraft EULA. 
     For more information visit [The official Minecraft EULA webpage](https://www.minecraft.net/en-us/eula)
 
