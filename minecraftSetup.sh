@@ -33,7 +33,9 @@ chmod +x stop
 sleep 1
 
 # Create Backup Script 
-touch backup.sh
+touch backup
 printf '#!/bin/bash\nnow=$(date + "%d_%m_%y")\ncp -r /opt/minecraft/server /opt/minecraft/backups\ncd /opt/minecraft/backups/server\nzip $now *' >> backup
+chmod +x backup
+sleep 1
 
 # End script
