@@ -5,7 +5,7 @@ Last Updated: 05/06/2025
 
 Note: This guide is for an already set up Ubuntu instance in Amazon EC2. See [Server Setup Document] for more details.  
 
-SERVER SETUP DETAILS
+## SERVER SETUP DETAILS
 
 Step 1: Download the minecraftSetup.sh file using `wget https://github.com/JM-34771765/ICT171-Minecraft-Server/raw/refs/heads/main/minecraftSetup.sh`
 
@@ -26,8 +26,11 @@ Step 6: Run minecraftSetup.sh using ```sudo ./minecraftSetup.sh```
     Note: This setup script will start the server automatically. It will also automatically agree to the minecraft EULA. 
     For more information visit [The official Minecraft EULA webpage](https://www.minecraft.net/en-us/eula)
 
+Step 7: Run the command ```sudo nano /etc/crontab``` This will open your crontab configuration, which lets you schedule commands to run at regular intervals. 
+Below the other scheduled commands, add the line ```0 * * * * root /opt/minecraft/server/backup```
+This command will run the backup script every hour while the EC2 instance is running. There is a guide within the crontab file to adjust the frequency at which the backups are created. 
     
-REGULAR SERVER OPERATION
+## REGULAR SERVER OPERATION
 
 To access server operations, run the command ```cd /opt/minecraft/server``` This will take you to the directory the server runs from. 
 
