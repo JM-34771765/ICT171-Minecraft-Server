@@ -8,7 +8,9 @@ This Minecraft Server is intended for recreational, non-commercial use as a demo
 
 ## Quick Links ##
 [Instance Setup](ubuntuSetup.md)
+
 [Minecraft Server Setup](MinecraftInstructions.md)
+
 [Webpage Setup](WebpageInstructions.md)
 
 <hr>
