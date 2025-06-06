@@ -57,15 +57,21 @@ This will take you to the directory the server runs from.
 
 Run the `ls` command to see the server files.
 
+<hr>
+
 To start the server:
 
 Run the command `sudo ./start` This will execute the start script. 
+
+<hr>
 
 To stop the server, either:
 
 Run the `sudo ./stop` command
 OR
 Type the command `stop` into the server's command line within the GUI.
+
+<hr>
 
 To edit server properties, including the world file:
 
