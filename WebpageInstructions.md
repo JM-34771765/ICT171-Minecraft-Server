@@ -15,7 +15,7 @@ This will install the apache2 Web Server onto your instance.
 
 Step 2: Download the [index.html](index.html) file from this repository. You can do this directly to your instance by running the command
 ```
-wget https://github.com/JM-34771765/ICT171-Minecraft-Server/blob/WebPage/index.html
+wget https://github.com/JM-34771765/ICT171-Server-Project/blob/main/index.html
 ```
 Then run the command 
 ```
@@ -27,7 +27,7 @@ This should replace the default apache2 index file with the current version of t
 Step 3: In order for some of the images in the file to render correctly, you will need to also download image files into the /var/www/html directory. 
 You can do this using the same method as the index file, using
 ```
-wget https://github.com/JM-34771765/ICT171-Minecraft-Server/blob/WebPage/minecraftImage.png
+wget https://github.com/JM-34771765/ICT171-Server-Project/blob/main/minecraftImage.png 
 ```
 then
 ```
