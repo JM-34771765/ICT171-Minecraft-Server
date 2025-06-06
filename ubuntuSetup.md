@@ -15,4 +15,13 @@ At step 10, if you intend to set up the webpage, add two additional rules to all
 
 Skip steps 12 to 16. The instructions for this portion of setup are covered in [The Minecraft Instruction File](/MinecraftInstructions.md)
 
+Before going through the "Cleaning up" section, be sure to update your packages using 
+```
+sudo apt update
+```
+and 
+```
+sudo apt upgrade
+```
+
 For setting up the webpage, see [The Webpage Setup Document](WebpageInstructions.md)
