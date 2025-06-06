@@ -14,3 +14,5 @@ At step 5, since the options for instance type are different from the ones liste
 At step 10, if you intend to set up the webpage, add two additional rules to allow TCP traffic from anywhere (0.0.0.0/0) for port 80 and port 443.
 
 Skip steps 12 to 16. The instructions for this portion of setup are covered in [The Minecraft Instruction File](/MinecraftInstructions.md)
+
+For setting up the webpage, see [The Webpage Setup Document](WebpageInstructions.md)
