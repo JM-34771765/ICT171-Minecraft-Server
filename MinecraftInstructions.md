@@ -3,7 +3,7 @@ by Jonathan Michael
 
 Last Updated: 05/06/2025
 
-Note: This guide is for an already set up Ubuntu instance in Amazon EC2. See [Server Setup Document] for more details.  
+Note: This guide is for an already set up Ubuntu instance in Amazon EC2. See [The Server Setup Document](/ubuntuSetup.md) for more details.  
 
 ## SERVER SETUP DETAILS
 
