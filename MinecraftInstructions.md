@@ -66,14 +66,11 @@ To stop the server, either:
     Type the command `stop` into the server's command line within the GUI.
 
 To edit server properties, including the world file:
-    Open the server.properties file. You may have to use the `sudo` command to have access to edit the file. You can use any text editor, for example nano e.g.
-
-    ```
-    sudo nano server.properties
-    ```
-
-    To view the properties without making any changes, use the same command without sudo. 
-    
-    ```
-    nano server.properties
-    ```
+Open the server.properties file. You may have to use the `sudo` command to have access to edit the file. You can use any text editor, for example nano e.g.
+```
+sudo nano server.properties
+```
+To view the properties without making any changes, use the same command without sudo. 
+```
+nano server.properties
+```
