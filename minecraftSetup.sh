@@ -22,7 +22,7 @@ wget $MINECRAFTSERVERURL
 chown -R minecraft:minecraft /opt/minecraft/
 java -Xmx1300M -Xms1300M -jar server.jar 
 sleep 40
-sed -i 's/false/true/p' eula.txt
+sed -i 's/false/true/p' /opt/minecraft/eula.txt
 touch start
 printf '#!/bin/bash\njava -Xmx1300M -Xms1300M -jar server.jar nogui\n' >> start
 chmod +x start
