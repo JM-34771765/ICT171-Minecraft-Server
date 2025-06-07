@@ -22,6 +22,7 @@ You may have to use the `sudo` command to have access to edit the file. You can 
 ```
 sudo nano /home/enshrouded/enshroudedserver/enshrouded_server.json
 ```
+It is reccommended that you change fields such as the server's name, password, and player limit. Their default values should allow the server to run, but offer low security. 
 
 Step 3: To Start the Server, run the command 
 ```
