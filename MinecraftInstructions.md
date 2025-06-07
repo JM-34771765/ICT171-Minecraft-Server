@@ -9,7 +9,7 @@ Note: This guide is for an already set up Ubuntu instance in Amazon EC2. See [Th
 
 Step 1: Download the minecraftSetup.sh file using 
 ```
-wget https://github.com/JM-34771765/ICT171-Server-Project/blob/main/minecraftSetup.sh
+wget https://raw.githubusercontent.com/JM-34771765/ICT171-Server-Project/refs/heads/main/minecraftSetup.sh
 ```
 
 Step 2: Within minecraftSetup.sh, make sure the MINECRAFTSERVERURL variable is set to the correct version download link. 
