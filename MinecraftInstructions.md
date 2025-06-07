@@ -33,6 +33,8 @@ Step 5: Run minecraftSetup.sh using
 ```
 sudo ./minecraftSetup.sh
 ```
+You may need to add details for a new user 'minecraft' created by the script. Fill these out however you want, but be sure to remember important details such as the password. 
+
 Note: This setup script will start the server automatically. It will also automatically agree to the minecraft EULA. 
 For more information visit [The official Minecraft EULA webpage](https://www.minecraft.net/en-us/eula)
 
