@@ -20,9 +20,9 @@ wget $MINECRAFTSERVERURL
 
 # Generate Minecraft server files and create script
 chown -R minecraft:minecraft /opt/minecraft/
+sed -i 's/false/true/p' eula.txt
 java -Xmx1300M -Xms1300M -jar server.jar 
 sleep 40
-sed -i 's/false/true/p' eula.txt
 touch start
 printf '#!/bin/bash\njava -Xmx1300M -Xms1300M -jar server.jar nogui\n' >> start
 chmod +x start
