@@ -48,17 +48,28 @@ Step 2: Select your desired domain and complete the payment process. Create an a
 Step 3: Navigate to the "Manage Domains" Section of the "Domain Management" menu, within your Cloudflare Dashboard for your account. Select "Manage" next to the domain you just registered. 
 
 Step 4: Under the "Quick Actions" menu, select "Update DNS Configuration". 
-This should navigate you to the DNS Records for your domain.
+This should navigate you to the DNS Records for your domain. Select "Add Record".
 
 Under Type, Select A (should be default)
 In the 'Name' Field, type '@'
 Under the 'IPv4 address' field, copy and past your EC2 Instance's IPv4 Address (found under your instance's summary page)
+Switch the 'Proxy Status' Slider to off
 
 Save the Record. This will ensure that your domain now connects to your server. 
 
+Step 5: For a minecraft server, you will need to set up an additional record. 
+
+Under Type, Select SRV
+In the 'Name' Field, type '_minecraft._tcp'
+For both priority and weight select 0.
+For the 'Port' Field, type 25565 (or whatever port your server routes through, 25565 is the default)
+In the 'Target' Field, type '@' 
+
+Save the Record. This should now allow players to connect to the minecraft server. 
+
 You can also follow Cloudflare's reccommended steps to add more records, however they are not required for the server to run. 
 
-Step 5: You may need to adjust your SSL/TLS Encryption mode. 
+Step 6: You may need to adjust your SSL/TLS Encryption mode. 
 To do this, navigate to the "SSL/TLS" menu, and select the "Overview" section.
 
 You should see a segment on the page showing your current encryption mode. Select the "configure" button within the segment, then scroll down and select "Full". 
