@@ -12,6 +12,7 @@ At step 4, select 'Ubuntu' and use the default AMI.
 At step 5, since the options for instance type are different from the ones listed in the blog, choose one based on your own server needs, including RAM requirements depending on the type of server and number of players. 
 
 At step 10, if you intend to set up the webpage, add two additional rules to allow TCP traffic from anywhere (0.0.0.0/0) for port 80 and port 443.
+(By default, there are two boxes you can check to allow HTTP and HTTPS, which are the same as opening these ports.)
 
 Additionally, for the Enshrouded Dedicated Server, you should add rules for ports 15636 and 15637, in the same way you did for the other rules in step 10.
 
