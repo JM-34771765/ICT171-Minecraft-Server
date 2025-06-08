@@ -26,6 +26,8 @@ This will run the setup script.
 
 You will need to agree to Valve's Steam License Agreement, which displays during the configuration of SteamCMD. 
 
+<hr>
+
 Step 3: To edit the Server Configuration:
 
 Open the enshrouded_server.json file. 
