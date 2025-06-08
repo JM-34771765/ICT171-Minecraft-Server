@@ -15,7 +15,11 @@ wget https://raw.githubusercontent.com/JM-34771765/ICT171-Server-Project/refs/he
 Step 2: Within minecraftSetup.sh, make sure the MINECRAFTSERVERURL variable is set to the correct version download link. 
 
 Visit [The Minecraft Server Download Link](https://www.minecraft.net/en-us/download/server) to find the latest version, or search minecraft server download
-Note: You can use ```nano minecraftSetup.sh``` to view the file
+Note: You can use 
+```
+nano minecraftSetup.sh
+```
+ to view the file
 Note: The server's version is currently set to 1.21.5
 
 Step 3: While you have the file open, also ensure that the java install command is up-to-date with the latest java version
