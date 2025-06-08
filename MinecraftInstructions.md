@@ -42,6 +42,12 @@ You may need to add details for a new user 'minecraft' created by the script. Fi
 Note: This setup script will start the server automatically. It will also automatically agree to the minecraft EULA. 
 For more information visit [The official Minecraft EULA webpage](https://www.minecraft.net/en-us/eula)
 
+If the server displays an error saying you must agree to the EULA, press Control-C and run minecraftSetup.sh again using the command. If the error persists, you may need to edit the eula file manually. To do so, use the command 
+```
+sudo nano eula.txt
+```
+Then change the value from 'false' to 'true'. This marks that you Agree to the Minecraft EULA. 
+
 Step 6: Run the command 
 ```
 sudo nano /etc/crontab
