@@ -24,6 +24,8 @@ sudo ./enshroudedSetup.sh
 ```
 This will run the setup script. 
 
+You may need to add details for a new user 'enshrouded' created by the script. Fill these out however you want, but be sure to remember important details such as the password.
+
 You will need to agree to Valve's Steam License Agreement, which displays during the configuration of SteamCMD. 
 
 <hr>
