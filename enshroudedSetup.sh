@@ -22,7 +22,7 @@ sudo add-apt-repository multiverse
 sudo apt install steamcmd
 
 # Add and switch to enshrouded user
-sudo adduser -m enshrouded
+sudo adduser enshrouded
 sudo -u enshrouded -s
 cd ~
 
