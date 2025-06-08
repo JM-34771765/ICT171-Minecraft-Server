@@ -14,7 +14,19 @@ Step 1: Download the [enshroudedSetup.sh](enshroudedSetup.sh) file using
 wget https://raw.githubusercontent.com/JM-34771765/ICT171-Server-Project/refs/heads/main/enshroudedSetup.sh 
 ```
 
-Step 2: To edit the Server Configuration:
+Step 2: Run the command
+```
+chmod +x enshroudedSetup.sh
+```
+This will allow the file to execute. Then run
+```
+sudo ./enshroudedSetup.sh
+```
+This will run the setup script. 
+
+You will need to agree to Valve's Steam License Agreement, which displays during the configuration of SteamCMD. 
+
+Step 3: To edit the Server Configuration:
 
 Open the enshrouded_server.json file. 
 
@@ -24,7 +36,7 @@ sudo nano /home/enshrouded/enshroudedserver/enshrouded_server.json
 ```
 It is reccommended that you change fields such as the server's name, password, and player limit. Their default values should allow the server to run, but offer low security. 
 
-Step 3: To Start the Server, run the command 
+Step 4: To Start the Server, run the command 
 ```
 wine64 home/enshrouded/enshroudedserver/enshrouded_server.exe
 ```
