@@ -11,7 +11,7 @@ This guide has been adapted from the server setup instructins found [Here](https
 
 Step 1: Download the [enshroudedSetup.sh](enshroudedSetup.sh) file using
 ```
-wget 
+wget https://raw.githubusercontent.com/JM-34771765/ICT171-Server-Project/refs/heads/main/enshroudedSetup.sh 
 ```
 
 Step 2: To edit the Server Configuration:
