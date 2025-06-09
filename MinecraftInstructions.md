@@ -81,7 +81,7 @@ To stop the server, either:
 
 Run the `sudo ./stop` command
 OR
-Type the command `stop` into the server's command line within the GUI.
+Type the command `stop` into the server's command line.
 
 <hr>
 
