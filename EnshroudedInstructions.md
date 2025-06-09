@@ -51,7 +51,7 @@ It is reccommended that you change fields such as the server's name, password, a
 
 Step 4: To Start the Server, run the command 
 ```
-wine64 home/enshrouded/enshroudedserver/enshrouded_server.exe
+wine home/enshrouded/enshroudedserver/enshrouded_server.exe
 ```
 
 To stop the server, press Control+C in the command line that is running the server. 
