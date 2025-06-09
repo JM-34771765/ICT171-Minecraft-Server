@@ -37,6 +37,35 @@ This should move the image into the correct directory so that the index file can
 
 <hr>
 
+## Getting a Certificate using CertBot ## 
+
+This guide is adapted from [These Instructions](https://certbot.eff.org/instructions?ws=apache&os=snap)
+
+Step 1: In your server's command line, run 
+```
+sudo apt remove certbot
+```
+This should remove any existing versions of certbot.
+Then run
+```
+sudo snap install --classic certbot
+```
+Step 2: Check that certbot can run with the command
+```
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
+Step 3: Run the command
+```
+sudo certbot --apache
+```
+This should run certbot and allow your webpage to use https. 
+
+Step 4: Check that your certbot will automatically renew using 
+```
+sudo certbot renew --dry-run
+```
+Step 5: Go to your site and check that it works with https:// in front of the domain. (Set up your domain first if you haven't already)
+
 ## Creating a Domain ##
 
 For this project, I have also registered a domain for the Webpage and server. The instructions below are for setting up a domain with Cloudflare.
