@@ -58,7 +58,7 @@ Step 3: Run the command
 ```
 sudo certbot --apache
 ```
-This should run certbot and allow your webpage to use https. 
+This should run certbot and allow your webpage to use https. You may need to follow some prompts that come up in the command line. 
 
 Step 4: Check that your certbot will automatically renew using 
 ```
