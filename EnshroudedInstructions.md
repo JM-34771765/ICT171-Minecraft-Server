@@ -28,6 +28,15 @@ You may need to add details for a new user 'enshrouded' created by the script. F
 
 You will need to agree to Valve's Steam License Agreement, which displays during the configuration of SteamCMD. 
 
+Run the command 
+```
+cd ~
+```
+This will navigate to the enshrouded user's home directory. Then run
+```
+/usr/games/steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir /home/enshrouded/enshroudedserver +login anonymous +app_update 2278520 +quit
+```
+
 <hr>
 
 Step 3: To edit the Server Configuration:

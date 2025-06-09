@@ -20,13 +20,10 @@ sudo apt install cabextract winbind screen xvfb
 
 # Configure SteamCMD
 sudo add-apt-repository multiverse
+sudo apt install steam
 sudo apt install steamcmd
 
 # Add and switch to enshrouded user
 sudo adduser enshrouded
 sudo -u enshrouded -s
-cd ~
-
-# Install the Enshrouded Server using SteamCMD
-/usr/games/steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir /home/enshrouded/enshroudedserver +login anonymous +app_update 2278520 +quit
 
