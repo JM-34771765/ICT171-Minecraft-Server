@@ -28,12 +28,17 @@ sudo apt install -y openjdk-version_num-jdk
 ```
 Make sure to replace 'version_num' with the current java version number.
 
-Step 4: Assign execute permissions using 
+Step 4: Intall the zip package for the backup script using
+```
+sudo apt install zip
+```
+
+Step 5: Assign execute permissions using 
 ```
 chmod +x minecraftSetup.sh
 ``` 
 
-Step 5: Run minecraftSetup.sh using 
+Step 6: Run minecraftSetup.sh using 
 ```
 sudo ./minecraftSetup.sh
 ```
@@ -48,7 +53,7 @@ sudo nano eula.txt
 ```
 Then change the value from 'false' to 'true'. This marks that you Agree to the Minecraft EULA. 
 
-Step 6: Run the command 
+Step 7: Run the command 
 ```
 sudo nano /etc/crontab
 ``` 
